@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(220, 255, 255);
+    height: 100vh;
+}
+.countainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img,h1,p{
+    margin: 20px;
+}
+img{
+    border-radius: 20px;
+}
+h1,p{
+    text-align: center;
+}
+p{
+    color: rgba(0, 0, 0, 0.750);
+}
